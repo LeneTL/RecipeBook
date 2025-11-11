@@ -1,0 +1,8 @@
+.sidebar-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    padding: 0px 1%;
+    background-color:  #0000004b;
+}

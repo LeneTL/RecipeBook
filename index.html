@@ -4,13 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anne's Kokebok</title>
+<!-- ---------------STYLES--------------- -->
+    <link rel="stylesheet" href="General/GeneralStyling.css">
+    <link rel="stylesheet" href="Pages/Homepage/StyleHomepage.css">
+    <link rel="stylesheet" href="Pages/StartPage/StyleStartPage.css">
+    <link rel="stylesheet" href="Pages/Topbar/StyleTopbar.css">
+    <link rel="stylesheet" href="Pages/LogIn/StyleLogIn.css">
+    <link rel="stylesheet" href="Pages/AddRecipiepage/StyleRecipeInput.css">
+    <link rel="stylesheet" href="Pages/FavoritesList/StyleFavoritesList.css">
+    <link rel="stylesheet" href="Pages/RecipeList/StyleRecipeList.css">
+    <!-- <link rel="stylesheet" href="Pages/.css"> -->
 </head>
 <body>
     <section id="main"></section>
-    <section id="topbar"></section>
-
+<!-- ---------------MODEL--------------- -->
     <script src="model.js"></script>
-    <script src="GeneralControl.js"></script>
-    <script defer src="Scripts/Topbar/ViewTopbar.js"></script>
+<!-- ---------------VIEWS--------------- -->
+    <script defer src="Pages/StartPage/ViewStartPage.js"></script>
+    <script defer src="Pages/Topbar/ViewTopbar.js"></script>
+    <script src="Pages/Homepage/ViewHomepage.js"></script>
+    <script src="Pages/LogIn/ViewLogIn.js"></script>
+    <script src="Pages/AddRecipiepage/ViewRecipeInput.js"></script>
+    <script src="Pages/FavoritesList/ViewFavoritesList.js"></script>
+    <script src="Pages/RecipeList/ViewRecipeList.js"></script>
+    <!-- <script src="Pages/"></script> -->
+<!-- ---------------MAINVIEW--------------- -->
+    <script defer src="General/GeneralControl.js"></script>
+<!-- ---------------CONTROLLERS--------------- -->
+    <script src="Pages/Homepage/ControllerHomepage.js"></script>
+    <script src="Pages/StartPage/ControllerStartPage.js"></script>
+    <script src="Pages/LogIn/ControllerLogIn.js"></script>
+    <script src="Pages/Topbar/ControllerTopbar.js"></script>
+    <script src="Pages/AddRecipiepage/ControllerRecipeInput.js"></script>
+    <script src="Pages/FavoritesList/ControllerFavoritesList.js"></script>
+    <script src="Pages/RecipeList/ControllerRecipeList.js"></script>
+    <!-- <script src="Pages/"></script> -->
+   
 </body>
 </html>

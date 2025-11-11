@@ -1,7 +1,7 @@
 const model = {
     app: {
         main: document.getElementById('main'),
-        currentPage:'startpage',
+        currentPage:'startpage', //startpage is where it will start
         viewerPages: ['homepage', 'startpage', 'login',  'savedRecipe', ],
         onlyAdminPages: ['recipeInput', 'recipeList', 'editRecipe'],
         currentUser: null,

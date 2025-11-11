@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(104, 84, 59);
+}
+.content{
+    margin-top: 150px;
+    padding: 25px;
+    background-color: #d7c8e7;
+    width: 50vw;
+    min-width: fit-content;
+    justify-items: center;
+    border-radius: 5px;
+}
